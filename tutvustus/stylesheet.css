@@ -1,0 +1,145 @@
+header {
+    margin-right: 40px;
+    margin: auto;
+    margin-right: 40px;
+    font-weight: 600;
+}
+
+.main-nav {
+    display: flex;
+    border-bottom: solid rgb(235, 29, 36) 1px;
+    background: white;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    height: 75px;
+}
+
+.main-nav ul {
+    display: flex;
+    margin: auto;
+    list-style-type: none;
+}
+
+.main-nav li {
+    font-size: 28px;
+    text-align: justify;
+    margin: 0 50px;
+}
+
+.main-nav img {
+    width: 60px;
+    height: 50px;
+    margin: 0.8rem;
+}
+
+@media screen and (max-width: 575px) {
+    .main-nav {
+        flex-direction: column;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Big Shoulders Text', cursive;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background: white;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+}
+
+/* Lingid vasakul boxis */
+.box-1 {
+    list-style-type: none;
+    border-right: 1px solid rgb(235, 29, 36);
+}
+
+.box-1 li {
+    padding: 9vh 20px;
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.box-1 ul {
+    padding: 10px;
+    margin: 1vh;
+}
+
+.kirjeldus {
+    flex: 3;
+}
+
+.kirjeldus>h2 {
+    text-align: center;
+}
+
+.kirjeldus li {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px 30px;
+}
+
+/* Alumine box/vorm */
+
+.box-3 {
+    margin: 100px;
+    display: inline-block;
+    width: 500px;
+}
+
+fieldset {
+    padding: 30px;
+}
+
+.ifrm2 {
+    margin-top: 10%;
+}
+
+#label {
+    display: inline-block;
+    width: 80px;
+}
+
+/* Lingid */
+
+a:link {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+a:hover {
+    color: rgb(235, 29, 36);
+}
+
+a:visited {
+    color: black;
+}
+
+/* Footer */
+footer {
+    height: 10vh;
+    display: inline-block;
+}
+
+.jalus {
+    background: white;
+    text-align: center;
+    padding-top: 2vh;
+    color: black;
+    font-size: 20px;
+    border-top: 1px solid rgb(235, 29, 36);
+}
+
+/* Tabel */
+.tabel1 {
+    margin: 10px 10px 10px 0px;
+}
